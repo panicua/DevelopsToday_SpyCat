@@ -6,7 +6,8 @@ def cat_breed_api_get() -> set | None:
     breeds = set()
     if request.status_code == 200:
         for breed in request.json():
-            breeds.add(breed['name'])
+            breeds.add(breed["name"])
+            breeds.add(breed["name"].lower())
         return breeds
 
     print(f"CatBreedAPI error: {request.status_code}")
