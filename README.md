@@ -12,7 +12,7 @@ A RESTful API for managing spy cats, missions, and targets. Allows for CRUD oper
 
 ## Documentation
 All API endpoints are documented in this Postman collection:
-[SpyCats API Collection](postman/SpyCats API.postman_collection.json).
+[SpyCats API Collection](postman%2FSpyCats%20API.postman_collection.json).
 Import the `.json` file into Postman to use the API.
 
 ## Installation (Docker, Local):
