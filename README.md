@@ -23,7 +23,7 @@ Import the `.json` file into Postman to use the API.
 
 2. Create an `.env` file in the root of the project directory. You can use the `.env.example` file as a template. Don't forget to replace the placeholders with your own values:
    ```sh
-   cd TT_DevelopsToday_SpyCat
+   cd DevelopsToday_SpyCat
    cp .env.example .env
    ```
 
