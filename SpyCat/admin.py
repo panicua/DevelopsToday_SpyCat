@@ -1,3 +1,4 @@
 from django.contrib import admin
+from SpyCat.models import SpyCat
 
-# Register your models here.
+admin.site.register(SpyCat)
