@@ -12,7 +12,7 @@ A RESTful API for managing spy cats, missions, and targets. Allows for CRUD oper
 
 ## Documentation
 All API endpoints are documented in this Postman collection:
-[SpyCats API Collection](postman/SpyCats API.postman_collection.json).
+[SpyCats API Collection](postman%2FSpyCats%20API.postman_collection.json).
 Import the `.json` file into Postman to use the API.
 
 ## Installation (Docker, Local):
@@ -23,7 +23,7 @@ Import the `.json` file into Postman to use the API.
 
 2. Create an `.env` file in the root of the project directory. You can use the `.env.example` file as a template. Don't forget to replace the placeholders with your own values:
    ```sh
-   cd TT_DevelopsToday_SpyCat
+   cd DevelopsToday_SpyCat
    cp .env.example .env
    ```
 
