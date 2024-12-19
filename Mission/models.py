@@ -3,9 +3,12 @@ from django.db import models
 
 class Mission(models.Model):
     cat = models.ForeignKey(
-        "SpyCat.SpyCat", on_delete=models.CASCADE, null=True, blank=True
+        "SpyCat.SpyCat",
+        on_delete=models.CASCADE,
+        null=True, blank=True,
+        related_name="missions"
     )
-    targets = models.ManyToManyField("Target")
+    targets = models.ManyToManyField("Target", related_name="missions")
     complete = models.BooleanField(default=False)
 
 

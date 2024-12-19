@@ -15,3 +15,4 @@ class MissionSerializer(serializers.ModelSerializer):
     class Meta:
         model = Mission
         fields = "__all__"
+        extra_kwargs = {"cat": {"required": False, "default": None}}
