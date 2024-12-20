@@ -34,4 +34,5 @@ Import the `.json` file into Postman to use the API.
    ```
    
 ## Notes
-It was not required in the task, but writing tests is always a good practice. However, to save time, tests and custom JWT permissions were not included in the repository.
+* It was not required in the task, but writing tests is always a good practice. However, to save time, tests and custom JWT permissions were not included in the repository.
+* Redis was used to cache external API calls (once a day) to save time and resources.
